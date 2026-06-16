@@ -107,6 +107,7 @@ with tab3:
     else:
         try:
             df_len = pd.read_csv(path, sep='\t', names=['Source', 'Length_Group', 'Count'])
+            df_len = df_len.groupby(['Source', 'Length_Group'], as_index=False)['Count'].sum()
             ORDER = ['Short (<300 words)', 'Medium (300-1000 words)', 'Long (>1000 words)']
             fig, ax = plt.subplots(figsize=(10, 5))
             sns.barplot(data=df_len, x='Length_Group', y='Count',
