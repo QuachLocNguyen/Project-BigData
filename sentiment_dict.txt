@@ -1,0 +1,27 @@
+đột phá,1
+phát triển,1
+thành công,1
+tăng trưởng,1
+hiện đại,1
+thông minh,1
+cải tiến,1
+tối ưu,1
+innovative,1
+success,1
+growth,1
+smart,1
+breakthrough,1
+lo ngại,-1
+rủi ro,-1
+sụt giảm,-1
+thất bại,-1
+lỗi,-1
+khủng hoảng,-1
+độc hại,-1
+bị hack,-1
+crisis,-1
+failure,-1
+risk,-1
+error,-1
+bug,-1
+decline,-1
